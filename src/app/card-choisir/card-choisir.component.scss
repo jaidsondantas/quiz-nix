@@ -1,0 +1,39 @@
+app-card-choisir {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .mat-card {
+    width: 650px;
+
+    .mat-card-content {
+      display: flex;
+      margin-top: 16px;
+      width: 650px;
+      flex-wrap: wrap;
+      .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        border-radius: 4px;
+        margin: 8px;
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 30px;
+      }
+
+      .completed {
+        background: #12121238 !important;
+        color: #646464 !important;
+      }
+
+      .free {
+        background: green;
+      }
+    }
+  }
+}

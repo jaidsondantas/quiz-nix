@@ -1,0 +1,12 @@
+<mat-card class="mat-card">
+  <mat-card-header>
+    <mat-card-title>Questões</mat-card-title>
+  </mat-card-header>
+  <mat-divider></mat-divider>
+  <mat-card-content>
+    <div class="number free" [ngClass]="{'completed': cardChoisir.questionsCompleted.value.indexOf(question.id) > -1}"
+         (click)="setQuestion(question)" *ngFor="let question of questions;">
+      {{question.id}}
+    </div>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,36 @@
+app-question {
+  .mat-card {
+    width: 600px;
+    .mat-card-header {
+      padding-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .question {
+      font-size: 24px;
+      padding: 16px;
+      line-height: 1.1;
+    }
+
+    .options {
+      font-size: 20px;
+      padding: 16px;
+    }
+
+    .footer {
+      display: flex;
+      padding: 16px;
+      align-items: center;
+      justify-content: space-between;
+
+      .result {
+        mat-icon {
+          font-size: 50px;
+
+        }
+      }
+    }
+  }
+}

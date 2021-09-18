@@ -1,0 +1,11 @@
+app-root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #121212;
+  app-card-choisir {
+    width: 600px;
+  }
+}
+
